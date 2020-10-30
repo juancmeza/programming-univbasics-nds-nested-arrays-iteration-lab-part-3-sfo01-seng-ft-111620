@@ -5,7 +5,7 @@ def join_nested_strings(src)
   for i in 0...src.length 
     for j in 0...src[i].length 
       if src[i][j].is_a? String 
-        str = str + src[i][j]
+        str = str + " " + src[i][j]
       end
     end 
   end
